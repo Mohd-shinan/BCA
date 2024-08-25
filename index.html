@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BCA Department - Home</title>
+    <link rel="stylesheet" href="aboutuscss.css">
+    <link rel="stylesheet" href="style2.css">
+    <style>
+        /* Basic styling for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            position: relative;
+            text-align: center;
+            color: #fff;
+        }
+        .header-image {
+            width: 100%;
+            height: 5cm; /* Fixed height for the header image */
+            display: block;
+            object-fit: fit; /* Ensures the image covers the area without distortion */
+        }
+        .header-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        header nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            background-color: rgba(0, 0, 0, 0.7);
+            display: flex;
+            justify-content: center;
+        }
+        header nav ul li {
+            margin: 0 15px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            display: block;
+        }
+        header nav ul li a:hover {
+            background-color: #555;
+        }
+        .hero {
+            background-color: #f4f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        .cta-button {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .about, .faculty, .news-events {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        /* Styles for the card slider */
+        .slider {
+            position: relative;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 20px auto;
+            box-sizing: border-box;
+        }
+        .slider-track {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slider-card {
+            min-width: 50%; /* Show two images at a time */
+            box-sizing: border-box;
+            padding: 0 10px; /* Space between images */
+        }
+        .slider-card img {
+            width: 100%; /* Adjust image width to fit the card */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+            border-radius: 8px; /* Optional: Rounded corners */
+            max-width: 500px; /* Set max width */
+            max-height: 300px; /* Set max height */
+        }
+        .slider-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+            z-index: 1000;
+            border-radius: 50%; /* Optional: Circular buttons */
+        }
+        .slider-button.left {
+            left: 10px;
+        }
+        .slider-button.right {
+            right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="C:\Users\pro\Desktop\department dev\com.jpg" alt="BCA Department Background" class="header-image">
+        <div class="header-content">
+            <!-- <h1>BCA Department</h1> --> <!-- Removed header text -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="file:///C:/Users/pro/Desktop/department%20dev/about%20us.html">Overview</a></li>
+                <li><a href="file:///C:/Users/pro/Desktop/department%20dev/programs.html">Programs</a></li>
+                <li><a href="file:///C:/Users/pro/Desktop/department%20dev/contact%20us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Welcome to the BCA Department</h1>
+        <p>Empowering the next generation of IT professionals.</p>
+        <a href="programs.html" class="cta-button">Explore Our Programs</a>
+    </section>
+    <section class="about">
+        <h2>About Us</h2>
+        <p>Our BCA department offers cutting-edge education in computer applications, fostering a deep understanding of the IT field.</p>
+        <p>Department of Computer Science offers a three-year professional UG programme (BCA). The department commenced its operation in 2023, right from the inception of the college. The department offers programmes to equip undergraduates to be competent in the IT economy. The department enables learners to think critically in the course of digital technology.</p>
+        <p><b>Bachelors in Computer Application (BCA)</b> is a three-year undergraduate degree course for students who wish to delve into the world of Computer languages. The BCA course is one of the most popular options to get started with a career in Information Technology.</p>
+        <p>A degree in BCA is at par with a B.Tech/B.E degree in Computer Science or Information Technology. For a BCA aspirant, this degree helps in setting up a sound academic base for an advanced career in Computer Applications.</p>
+        <p>The IT industry is growing rapidly and with this, the demand for BCA graduates, too, is increasing every passing day. After obtaining a BCA degree, students can find lucrative job opportunities in leading IT companies such as Oracle, IBM, Infosys, and Wipro. Some of the roles that one can bag after completing a BCA programme are that of a System Engineer, Software Tester, Junior Programmer, Web Developer, System Administrator, Software Developer, etc.</p>
+        <p>BCA graduates are not only recruited by the private sector but also by public sector organisations. Government organisations like the Indian Air Force (IAF), Indian Army, and Indian Navy also hire a large bunch of computer professionals for their IT departments.</p>
+    </section>
+    <section class="faculty">
+        <h2>Faculty</h2>
+        <a href="file:///C:/Users/pro/Desktop/department%20dev/faculty.html">
+            <img src="C:\Users\pro\Desktop\department dev\ourfac-768x436-1.jpg" alt="Faculty" height="100px" width="100px">
+        </a>
+    </section>
+    <section class="news-events">
+        <h2>News & Events</h2>
+        <p>Stay updated with the latest news and upcoming events in the BCA department.</p>
+        <div class="slider">
+            <button class="slider-button left" onclick="moveSlide(-1)">&#10094;</button>
+            <div class="slider-track">
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\e52b65a0-a407-44bd-ac1d-74c9d1f47bdb.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\e52b65a0-a407-44bd-ac1d-74c9d1f47bdb.jpeg" alt="Event 1">
+                    </a>
+                </div>
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\WhatsApp Image 2024-08-24 at 6.20.54 PM.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\WhatsApp Image 2024-08-24 at 6.20.54 PM.jpeg" alt="Event 2">
+                    </a>
+                </div>
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\b8b6b216-c6d7-4dd7-a77b-7cbb47ab153f.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\b8b6b216-c6d7-4dd7-a77b-7cbb47ab153f.jpeg" alt="Event 3">
+                    </a>
+                </div>
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\bf84e5a1-e95f-4a17-afae-3dca3453384c.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\bf84e5a1-e95f-4a17-afae-3dca3453384c.jpeg" alt="Event 4">
+                    </a>
+                </div>
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\75b57586-0e1b-4c50-a813-3bfe856958db.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\75b57586-0e1b-4c50-a813-3bfe856958db.jpeg" alt="Event 5">
+                    </a>
+                </div>
+                <div class="slider-card">
+                    <a href="C:\Users\pro\Desktop\department dev\06f75ead-81e2-4a7b-b0f0-3be0e209b24d.jpeg">
+                        <img src="C:\Users\pro\Desktop\department dev\06f75ead-81e2-4a7b-b0f0-3be0e209b24d.jpeg" alt="Event 6">
+                    </a>
+                </div>
+            </div>
+            <button class="slider-button right" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 BCA Department. All rights reserved.</p>
+        <p>Al Shifa College of Arts and Science<br>
+        Keezhattur, Malappuram DT, Kerala, 679325<br>
+        Phone: 9446544473<br>
+        Email: <a href="mailto:info@alshifacollegeofartsandscience.ac.in">info@alshifacollegeofartsandscience.ac.in</a></p>
+    </footer>
+    <script>
+        let currentIndex = 0;
+        const slides = document.querySelectorAll('.slider-card');
+        const totalSlides = slides.length;
+
+        function updateSliderPosition() {
+            const track = document.querySelector('.slider-track');
+            track.style.transform = `translateX(-${currentIndex * 50}%)`; // Move by 50% to show 2 images at a time
+        }
+
+        function moveSlide(direction) {
+            currentIndex = (currentIndex + direction + totalSlides) % totalSlides;
+            updateSliderPosition();
+        }
+
+        // Initialize slider position
+        updateSliderPosition();
+    </script>
+</body>
+</html>
