@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDY METERIALS</title>
+	    <link rel="stylesheet" href="aboutuscss.css">
+
+    <style>
+        /* Basic styling for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; /* Allow positioning of back button */
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+        .back-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background-color: #fff;
+                color: #000;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                margin: 0;
+                padding: 0;
+                position: static; /* Reset positioning for print */
+            }
+            h1 {
+                color: #000;
+            }
+            .section h2 {
+                background-color: #000;
+                color: #fff;
+            }
+            .back-button {
+                display: none; /* Hide button on print */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BCA Department - STUDY MATERIALS</h1>
+
+        <div class="section" id="study materials">
+            <h2>NOTE & PPT</h2>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1HOwHId_w0gZEd4b1QCYI-McpBLwSUpEu/view?usp=sharing">C Programming note</a></li>
+                <li><a href="https://drive.google.com/file/d/1HQeA8nPY-t7YaeqtiUyzaEFB5yf69gXQ/view?usp=sharing">C Programming Q&A</a></li>
+                <li><a href="https://drive.google.com/file/d/1POZRlDOPr9nrk6DF892cVlfq4hI5RWeZ/view?usp=sharing">Theory of computation</a></li>
+                <li><a href="https://drive.google.com/file/d/1OfZueiNnem_lZ3CyeINAMEQat90WaRxH/view?usp=sharing">Microprocessor</a></li>
+            
+			
+			
+			
+			
+			</ul>
+        </div>
+
+        
+        </div>
+        <br/>
+		<br/>
+		<br/>
+        <a class="back-button" href="javascript:history.back()">Back</a>
+    </div>
+</body>
+</html>

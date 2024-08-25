@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus and Practical List</title>
+    <style>
+        /* Basic styling for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            position: relative; /* Allow positioning of back button */
+        }
+        h1 {
+            text-align: center;
+            color: #007BFF;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            background-color: #007BFF;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+            margin: 0;
+        }
+        .section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section ul li {
+            padding: 8px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .section ul li:last-child {
+            border-bottom: none;
+        }
+        .back-button {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: #fff;
+            text-align: center;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            position: absolute;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                background-color: #fff;
+                color: #000;
+            }
+            .container {
+                box-shadow: none;
+                border: none;
+                margin: 0;
+                padding: 0;
+                position: static; /* Reset positioning for print */
+            }
+            h1 {
+                color: #000;
+            }
+            .section h2 {
+                background-color: #000;
+                color: #fff;
+            }
+            .back-button {
+                display: none; /* Hide button on print */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>BCA Department - Syllabus and Practical List</h1>
+    <link rel="stylesheet" href="aboutuscss.css">
+
+        <div class="section" id="syllabus">
+            <h2>Syllabus</h2>
+            <ul>
+                <li><a href="https://drive.google.com/file/d/1_gV76iXDPgcFw5O0c7u_Hk89CjHn1yZT/view?usp=sharing">2019 Syllabus</a></li>
+                <li><a href="https://drive.google.com/uc?export=download&confirm=no_antivirus&id=10jYUQm_3MmJy2vvlNiUatrGr3mLYHHrj">2017 Syllabus</a></li>
+            </ul>
+        </div>
+
+        <div class="section" id="practicals">
+            <h2>Practical List</h2>
+            <ul>
+                <li><a href="https://docs.google.com/document/d/1yb2_t-XUIXvjds6RuAAgJB8uiwZ3QHNx/edit?usp=drive_link&ouid=117007278409341011799&rtpof=true&sd=true">Html & C Programming 2nd Semester</a></li>
+                <li><a href="https://drive.google.com/file/d/1yzLdDK3DsPTimIDasd-b612H8zir5vBU/view?usp=drive_link">DS & RDBMS 4th Semester</a></li>
+                <li><a href="https://drive.google.com/file/d/1yOV3aUf2MOqgFGaVZfjvgIBgDCCGubOa/view?usp=drive_link">JAVA & PHP 5th Semester</a></li>
+                <li><a href="https://drive.google.com/file/d/1zVq1UrJ6yfytRzZ2AK2IJ4bXdc4bzNL0/view?usp=drive_link">ANDROID & SHELL</a></li>
+            </ul>
+        </div>
+        <br/>
+		<br/>
+		<br/>
+        <a class="back-button" href="javascript:history.back()">Back</a>
+    </div>
+</body>
+</html>
